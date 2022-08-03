@@ -9,11 +9,11 @@ public class Driver {
         this.exp = exp;
     }
 
-     private String getFio() {
-        return fio;
+     public String getFio(){
+        return this.fio;
     }
 
-    int getExp() {
+    int getExp(){
         return exp;
     }
 

@@ -15,7 +15,7 @@ public class Main {
         car.setCarInf("Baic", "Sport Car", 1600);
 
         Driver driver = new Driver();
-        driver.setFioAndExp("Николавев Николай Николаевич", 20);
+        driver.setFioAndExp("Николаев Николай Николаевич", 20);
 
         Engine engine = new Engine();
         engine.setEngineInf("Baic Motors", 750);
@@ -24,10 +24,6 @@ public class Main {
         car.turnLeft();
         car.turnRight();
         car.stop();
-
-
-
-
     }
 }
 
