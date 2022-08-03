@@ -8,6 +8,7 @@ public class Car {
 
 
     Engine engine = new Engine();
+    Driver driver = new Driver();
 
 
     void start() {
@@ -43,6 +44,9 @@ public class Car {
 
     int getWeight() {
         return weight;
+    }
+    void allInformation(){
+        System.out.println();
     }
 
 

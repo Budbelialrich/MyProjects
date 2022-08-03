@@ -24,7 +24,7 @@ public class Engine {
     public void setEngineInf(String man, int pow) {
         this.man = man;
         this.pow = pow;
+
+
     }
-
-
 }

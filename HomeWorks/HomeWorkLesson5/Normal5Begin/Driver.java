@@ -9,7 +9,7 @@ public class Driver {
         this.exp = exp;
     }
 
-    String getFio() {
+     private String getFio() {
         return fio;
     }
 

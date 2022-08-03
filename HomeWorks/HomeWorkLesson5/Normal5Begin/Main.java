@@ -24,7 +24,10 @@ public class Main {
         car.turnLeft();
         car.turnRight();
         car.stop();
-        
+
+
+
+
     }
 }
 
