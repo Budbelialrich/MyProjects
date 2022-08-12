@@ -3,6 +3,14 @@ package HomeWorks.HomeWorkLesson8;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+//„то умеет эта программа:
+//установка значенй в €чейку поочереди
+//вывод значени€ выбранной €чейки
+//замена значени€ €чейки
+//очистка нужной €чейки
+//получение информации о всем массиве
+
+//ѕредупреждени€ - программа находитс€ в разработке на этапе јльфа версии!!!
 public class Hard8 {
     public static void main(String[] args) {
 
