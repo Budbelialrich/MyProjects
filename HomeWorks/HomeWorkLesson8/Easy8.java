@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class Easy8 {
     public static void main(String[] args) {
 
-        int i = 0;
+        int index = 0;
 
         List<Integer> arrayList = new ArrayList<>(100);
         Scanner scanner = new Scanner(System.in);
@@ -32,22 +32,22 @@ public class Easy8 {
             switch (input) {
                 case "set":
                     System.out.println("¬ведите значение: ");
-                    int a = scanner.nextInt();
-                    arrayList.add(i, a);
-                    System.out.println("«начение записано в €чейку под номером: " + i + "!");
-                    i++;
+                    int setValue = scanner.nextInt();
+                    arrayList.add(index, setValue);
+                    System.out.println("«начение записано в €чейку под номером: " + index + "!");
+                    index++;
                     break;
 
                 case "get":
                     System.out.println("¬ведите номер €чейки: ");
-                    int c = scanner.nextInt();
-                    System.out.println("«начение из €чейки: " + arrayList.get(c));
+                    int getValue = scanner.nextInt();
+                    System.out.println("«начение из €чейки: " + arrayList.get(getValue));
                     break;
 
                 case "del":
                     System.out.println("¬ведите номер €чейки: ");
-                    int z = scanner.nextInt();
-                    arrayList.remove(z);
+                    int delIndex = scanner.nextInt();
+                    arrayList.remove(delIndex);
                     System.out.println("ячейка очищена!");
                     break;
 
