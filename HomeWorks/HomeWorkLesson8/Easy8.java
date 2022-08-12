@@ -11,6 +11,8 @@ import java.util.Scanner;
 //очистка нужной ячейки
 //получение информации о всем массиве
 
+//Предупреждения - программа находится в разработке на этапе Альфа версии!!!
+
 public class Easy8 {
     public static void main(String[] args) {
 
