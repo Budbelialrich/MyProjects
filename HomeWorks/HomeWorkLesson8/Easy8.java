@@ -23,15 +23,16 @@ public class Easy8 {
 
             String input = scanner.nextLine();
 
-            if (input.equals("stop"))
-                break;
+            if (input.equals("stop")){
+                System.out.println("Программа завершена!");
+                break;}
 
             switch (input) {
                 case "set":
                     System.out.println("Введите значение: ");
                     int a = scanner.nextInt();
                     arrayList.add(i, a);
-                    System.out.println("Ячейка записана под номером: " + i + "!");
+                    System.out.println("Значение записано в ячейку под номером: " + i + "!");
                     i++;
                     break;
 
