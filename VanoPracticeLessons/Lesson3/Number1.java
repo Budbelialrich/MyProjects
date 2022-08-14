@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Number1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите город: ");
+        System.out.println("Р’РІРµРґРёС‚Рµ РіРѕСЂРѕРґ: ");
         while (true) {
             String input = scanner.nextLine();
 
@@ -13,32 +13,32 @@ public class Number1 {
                 break;
 
             switch (input) {
-                case "Москва":
-                case "Владивосток":
-                case "Ростов":
-                    System.out.println("Россия");
+                case "РњРѕСЃРєРІР°":
+                case "Р’Р»Р°РґРёРІРѕСЃС‚РѕРє":
+                case "Р РѕСЃС‚РѕРІ":
+                    System.out.println("Р РѕСЃСЃРёСЏ");
                     break;
 
-                case "Рим":
-                case "Милан":
-                case "Турин":
-                    System.out.println("Италия");
+                case "Р РёРј":
+                case "РњРёР»Р°РЅ":
+                case "РўСѓСЂРёРЅ":
+                    System.out.println("РС‚Р°Р»РёСЏ");
                     break;
 
-                case "Ливерпуль":
-                case "Манчестер":
-                case "Лондон":
-                    System.out.println("Англия");
+                case "Р›РёРІРµСЂРїСѓР»СЊ":
+                case "РњР°РЅС‡РµСЃС‚РµСЂ":
+                case "Р›РѕРЅРґРѕРЅ":
+                    System.out.println("РђРЅРіР»РёСЏ");
                     break;
 
-                case "Берлин":
-                case "Мюнхен":
-                case "Кельн":
-                    System.out.println("Германия");
+                case "Р‘РµСЂР»РёРЅ":
+                case "РњСЋРЅС…РµРЅ":
+                case "РљРµР»СЊРЅ":
+                    System.out.println("Р“РµСЂРјР°РЅРёСЏ");
                     break;
 
                 default:
-                    System.out.println("Нет такого города!");
+                    System.out.println("РќРµС‚ С‚Р°РєРѕРіРѕ РіРѕСЂРѕРґР°!");
             }
         }
     }
