@@ -22,7 +22,7 @@ public class Easy {
 
         try {
             threadMin.join();
-            System.out.println("Максимальное значение массива: " + threadMinImplementation.getMaxNum());
+            System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РјР°СЃСЃРёРІР°: " + threadMinImplementation.getMaxNum());
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
