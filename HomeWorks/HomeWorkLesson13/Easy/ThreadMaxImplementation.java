@@ -1,4 +1,4 @@
-package HomeWorks.HomeWorkLesson13;
+package HomeWorks.HomeWorkLesson13.Easy;
 
 public class ThreadMaxImplementation implements Runnable {
 

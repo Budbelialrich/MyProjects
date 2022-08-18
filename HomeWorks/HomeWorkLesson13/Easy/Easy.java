@@ -1,4 +1,4 @@
-package HomeWorks.HomeWorkLesson13;
+package HomeWorks.HomeWorkLesson13.Easy;
 
 import java.util.Arrays;
 import java.util.Random;
