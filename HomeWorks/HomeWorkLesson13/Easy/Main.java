@@ -3,7 +3,7 @@ package HomeWorks.HomeWorkLesson13.Easy;
 import java.util.Arrays;
 import java.util.Random;
 
-public class Easy {
+public class Main {
     public static void main(String[] args) {
 
         Random random = new Random();
