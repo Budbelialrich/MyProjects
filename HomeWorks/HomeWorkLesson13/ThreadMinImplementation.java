@@ -1,6 +1,6 @@
 package HomeWorks.HomeWorkLesson13;
 
-public class ThreadMinImplementation implements Runnable {
+public class ThreadMinImplementation implements Runnable{
 
     int [] array;
 
@@ -8,10 +8,10 @@ public class ThreadMinImplementation implements Runnable {
         this.array = array;
     }
 
-    int maxNum;
+    int minNum;
 
-    public int getMaxNum() {
-        return maxNum;
+    public int getMinNum() {
+        return minNum;
     }
 
     @Override
@@ -19,10 +19,9 @@ public class ThreadMinImplementation implements Runnable {
 
         for (int mass : array) {
 
-            if (mass > maxNum) {
-                maxNum = mass;
+            if (mass < minNum) {
+                minNum = mass;
             }
         }
     }
 }
-
