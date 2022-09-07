@@ -1,6 +1,6 @@
 package JavaRushTasks;
 
-public class One {
+public class MultiplicationTable {
     public static void main(String[] args) {
         int a;
         int b = 1;
